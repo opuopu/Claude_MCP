@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{const p=JSON.parse(d).prompt;require('fs').appendFileSync(require('path').join(process.env.CLAUDE_PROJECT_DIR||process.cwd(),'input.md'),p+'\\n\\n')})\""
+          }
+        ]
+      }
+    ]
+  }
+}
