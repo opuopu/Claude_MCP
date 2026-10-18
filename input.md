@@ -12,3 +12,7 @@ ok create a commit reveiwer subagent
 
 design a simple html file with internal css where we have a simple 2 input and a button when click on the button it show a prompt like submitted. the input should be email and password. very simple
 
+/test-ui
+
+/test-ui login.html
+

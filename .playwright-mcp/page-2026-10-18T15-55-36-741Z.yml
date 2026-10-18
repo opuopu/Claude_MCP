@@ -1,0 +1,4 @@
+- generic [ref=e2]:
+  - textbox "Email" [ref=e3]
+  - textbox "Password" [ref=e4]
+  - button "Submit" [ref=e5] [cursor=pointer]
